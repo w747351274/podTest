@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |core|
-    core.source_files = 'podTest/class/{NS,SD,UI}*.{h,m}'
+    core.source_files = 'podTest/class/*.{h,m}'
   end
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
