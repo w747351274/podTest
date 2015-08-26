@@ -8,7 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+enum {
+    CELL_PODTEST,
+    CELL_COUNT
+
+};
+
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
+    
+}
+
+@property(nonatomic,strong)UITableView *tableView;
 
 
 @end

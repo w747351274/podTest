@@ -1,0 +1,5 @@
+platform :ios, '7.0'
+inhibit_all_warnings!
+
+pod 'SDWebImage','~>3.2'
+pod 'ClsLib',:git => 'https://github.com/w747351274/ClsLib.git'

@@ -1,0 +1,1 @@
+../../../ClsLib/Category/NSString+Regular.h
