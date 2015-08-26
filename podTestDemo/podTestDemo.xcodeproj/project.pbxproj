@@ -56,7 +56,6 @@
 		A753B1E21B8B0238001EBA5E /* PodTestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PodTestTool.m; path = ../../class/PodTestTool.m; sourceTree = "<group>"; };
 		A753B1E31B8B0238001EBA5E /* PodTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PodTestViewController.h; path = ../../class/PodTestViewController.h; sourceTree = "<group>"; };
 		A753B1E41B8B0238001EBA5E /* PodTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PodTestViewController.m; path = ../../class/PodTestViewController.m; sourceTree = "<group>"; };
-		A753B2331B8C0C9A001EBA5E /* URLDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLDefine.h; sourceTree = "<group>"; };
 		A753B36E1B8C4E04001EBA5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A753B3701B8C4E0F001EBA5E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		A753B3721B8C4E21001EBA5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,6 +64,7 @@
 		A753B3781B8C4E44001EBA5E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A753B37A1B8C4EF9001EBA5E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A7F78B021B8D55ED00BABD31 /* podTestDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "podTestDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A7F78B5B1B8DBCB800BABD31 /* URLDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URLDefine.h; path = ../../class/URLDefine.h; sourceTree = "<group>"; };
 		A92E5501EC0F610FA9162888 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -169,11 +169,11 @@
 		A753B1E01B8B021F001EBA5E /* class */ = {
 			isa = PBXGroup;
 			children = (
+				A7F78B5B1B8DBCB800BABD31 /* URLDefine.h */,
 				A753B1E11B8B0238001EBA5E /* PodTestTool.h */,
 				A753B1E21B8B0238001EBA5E /* PodTestTool.m */,
 				A753B1E31B8B0238001EBA5E /* PodTestViewController.h */,
 				A753B1E41B8B0238001EBA5E /* PodTestViewController.m */,
-				A753B2331B8C0C9A001EBA5E /* URLDefine.h */,
 			);
 			name = class;
 			sourceTree = "<group>";
