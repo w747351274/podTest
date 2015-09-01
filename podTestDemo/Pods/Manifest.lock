@@ -27,9 +27,11 @@ PODS:
   - ClsLib/Util (0.0.1):
     - ClsLib/Util/BaseClass (= 0.0.1)
     - ClsLib/Util/HttpUtil (= 0.0.1)
+    - ClsLib/Util/ResourceManager (= 0.0.1)
   - ClsLib/Util/BaseClass (0.0.1)
   - ClsLib/Util/HttpUtil (0.0.1):
     - AFNetworking (~> 2.6.0)
+  - ClsLib/Util/ResourceManager (0.0.1)
   - SDWebImage (3.7.3):
     - SDWebImage/Core (= 3.7.3)
   - SDWebImage/Core (3.7.3)
@@ -44,12 +46,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ClsLib:
-    :commit: fcf44b5e8c343bf3d8f56c7f40cd8459d9be4edf
+    :commit: 6745253819c088cb2aa14d9c8b07b8f753f5c7c5
     :git: https://github.com/w747351274/ClsLib.git
 
 SPEC CHECKSUMS:
   AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
-  ClsLib: 78b3317b890e42dcd7b9d8fe3f45953090e411b7
+  ClsLib: f926d08bf7d2e952fdd1cb81fa27b2ef05739baf
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
 
 COCOAPODS: 0.38.2

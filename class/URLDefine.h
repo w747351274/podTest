@@ -12,5 +12,5 @@
 
 #endif
 
-#define URL_BASE @"http://app1.demo.com:8081/"
-#define URL_WT  URL_BASE@"ServerTest/wt.json"
+#define URL_BASE @"http://app1.demo.com:8082/"
+#define URL_WT  URL_BASE@"ConfServer/default/wt2.json"

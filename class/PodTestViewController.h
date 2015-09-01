@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HttpUtil.h"
-#import "URLDefine.h"
+
 
 @interface PodTestViewController : UIViewController
 

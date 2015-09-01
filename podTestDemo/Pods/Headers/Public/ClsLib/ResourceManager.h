@@ -1,0 +1,1 @@
+../../../ClsLib/Util/ResourceManager/ResourceManager.h

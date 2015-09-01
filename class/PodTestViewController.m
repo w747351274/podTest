@@ -9,6 +9,8 @@
 #import "PodTestViewController.h"
 #import "UIButton+Addition.h"
 #import "NSDate+Addition.h"
+#import "HttpUtil.h"
+#import "URLDefine.h"
 
 @interface PodTestViewController (){
     UILabel *label;
@@ -60,7 +62,7 @@
         [label2 setText:[NSString stringWithFormat:@"水务缴费:%@",dict[@"data"][@"fee"]]];
         [label3 setText:[NSString stringWithFormat:@"用水数量:%@",dict[@"data"][@"count"]]];
         NSString *nowTime = [[NSDate date]convertDateToStringWithFormat:@"yyyy年MM月dd日"];
-        [label4 setText:[NSString stringWithFormat:@"用水日期%@",nowTime]];
+        [label4 setText:[NSString stringWithFormat:@"用水日期:%@",nowTime]];
         
     } ngBlock:^(NSString *error) {
  

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6E965837E9869F8985A1B4FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E5501EC0F610FA9162888 /* libPods.a */; };
+		A700E8D31B94198E00A4F75E /* SettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A700E8D21B94198E00A4F75E /* SettingItem.m */; };
+		A700E8D61B941AF000A4F75E /* MyFuncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A700E8D51B941AF000A4F75E /* MyFuncViewController.m */; };
+		A700E8D91B941B3800A4F75E /* Myfunc2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A700E8D81B941B3800A4F75E /* Myfunc2ViewController.m */; };
 		A753B1BB1B8B01C4001EBA5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A753B1BA1B8B01C4001EBA5E /* main.m */; };
 		A753B1BE1B8B01C4001EBA5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A753B1BD1B8B01C4001EBA5E /* AppDelegate.m */; };
 		A753B1C11B8B01C4001EBA5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A753B1C01B8B01C4001EBA5E /* ViewController.m */; };
@@ -24,6 +27,15 @@
 		A753B3771B8C4E37001EBA5E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A753B3761B8C4E37001EBA5E /* MobileCoreServices.framework */; };
 		A753B3791B8C4E44001EBA5E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A753B3781B8C4E44001EBA5E /* SystemConfiguration.framework */; };
 		A753B37B1B8C4EF9001EBA5E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A753B37A1B8C4EF9001EBA5E /* CFNetwork.framework */; };
+		A78AEEA11B9536E700068363 /* HtmlTextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A78AEE9B1B9536E700068363 /* HtmlTextViewViewController.m */; };
+		A78AEEA21B9536E700068363 /* UIWebLoaderView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A78AEE9C1B9536E700068363 /* UIWebLoaderView.bundle */; };
+		A78AEEA31B9536E700068363 /* UIWebLoaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A78AEE9E1B9536E700068363 /* UIWebLoaderView.m */; };
+		A78AEEA41B9536E700068363 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A78AEEA01B9536E700068363 /* UIWebViewController.m */; };
+		A78AEEAA1B95370600068363 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = A78AEEA81B95370600068363 /* WebViewJavascriptBridge.js.txt */; };
+		A78AEEAB1B95370600068363 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A78AEEA91B95370600068363 /* WebViewJavascriptBridge.m */; };
+		A7EF88901B8EE5AE00909D18 /* default.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A7EF888F1B8EE5AE00909D18 /* default.bundle */; };
+		A7EF88941B8EE6FD00909D18 /* appConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7EF88931B8EE6FD00909D18 /* appConfig.plist */; };
+		A7EF88991B8F0B6500909D18 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EF88981B8F0B6500909D18 /* PayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +51,13 @@
 /* Begin PBXFileReference section */
 		237D3A0AABA6449BD527D854 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4B886F6A01207E5CD84BFC8E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A700E8C31B93DB1C00A4F75E /* AppDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDefine.h; sourceTree = "<group>"; };
+		A700E8D11B94198E00A4F75E /* SettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingItem.h; path = DataObj/SettingItem.h; sourceTree = "<group>"; };
+		A700E8D21B94198E00A4F75E /* SettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingItem.m; path = DataObj/SettingItem.m; sourceTree = "<group>"; };
+		A700E8D41B941AF000A4F75E /* MyFuncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFuncViewController.h; sourceTree = "<group>"; };
+		A700E8D51B941AF000A4F75E /* MyFuncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFuncViewController.m; sourceTree = "<group>"; };
+		A700E8D71B941B3800A4F75E /* Myfunc2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Myfunc2ViewController.h; sourceTree = "<group>"; };
+		A700E8D81B941B3800A4F75E /* Myfunc2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Myfunc2ViewController.m; sourceTree = "<group>"; };
 		A753B1B51B8B01C4001EBA5E /* podTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A753B1B91B8B01C4001EBA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A753B1BA1B8B01C4001EBA5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +82,20 @@
 		A753B3761B8C4E37001EBA5E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		A753B3781B8C4E44001EBA5E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A753B37A1B8C4EF9001EBA5E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A78AEE9A1B9536E700068363 /* HtmlTextViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HtmlTextViewViewController.h; path = WebView/HtmlTextViewViewController.h; sourceTree = "<group>"; };
+		A78AEE9B1B9536E700068363 /* HtmlTextViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HtmlTextViewViewController.m; path = WebView/HtmlTextViewViewController.m; sourceTree = "<group>"; };
+		A78AEE9C1B9536E700068363 /* UIWebLoaderView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = UIWebLoaderView.bundle; path = WebView/UIWebLoaderView.bundle; sourceTree = "<group>"; };
+		A78AEE9D1B9536E700068363 /* UIWebLoaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIWebLoaderView.h; path = WebView/UIWebLoaderView.h; sourceTree = "<group>"; };
+		A78AEE9E1B9536E700068363 /* UIWebLoaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIWebLoaderView.m; path = WebView/UIWebLoaderView.m; sourceTree = "<group>"; };
+		A78AEE9F1B9536E700068363 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIWebViewController.h; path = WebView/UIWebViewController.h; sourceTree = "<group>"; };
+		A78AEEA01B9536E700068363 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIWebViewController.m; path = WebView/UIWebViewController.m; sourceTree = "<group>"; };
+		A78AEEA71B95370600068363 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = WebView/WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		A78AEEA81B95370600068363 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WebViewJavascriptBridge.js.txt; path = WebView/WebViewJavascriptBridge/WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		A78AEEA91B95370600068363 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebView/WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		A7EF888F1B8EE5AE00909D18 /* default.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = default.bundle; path = ../../../moduleTest/ModuleTest/ModuleTest/default.bundle; sourceTree = "<group>"; };
+		A7EF88931B8EE6FD00909D18 /* appConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = appConfig.plist; sourceTree = "<group>"; };
+		A7EF88971B8F0B6500909D18 /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayViewController.h; path = ../../class/PayViewController.h; sourceTree = "<group>"; };
+		A7EF88981B8F0B6500909D18 /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PayViewController.m; path = ../../class/PayViewController.m; sourceTree = "<group>"; };
 		A7F78B021B8D55ED00BABD31 /* podTestDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "podTestDemo-Prefix.pch"; sourceTree = "<group>"; };
 		A7F78B5B1B8DBCB800BABD31 /* URLDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URLDefine.h; path = ../../class/URLDefine.h; sourceTree = "<group>"; };
 		A92E5501EC0F610FA9162888 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +136,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A700E8D01B94197C00A4F75E /* DataObj */ = {
+			isa = PBXGroup;
+			children = (
+				A700E8D11B94198E00A4F75E /* SettingItem.h */,
+				A700E8D21B94198E00A4F75E /* SettingItem.m */,
+			);
+			name = DataObj;
+			sourceTree = "<group>";
+		};
 		A753B1AC1B8B01C4001EBA5E = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +168,9 @@
 		A753B1B71B8B01C4001EBA5E /* podTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A78AEE991B9536D100068363 /* WebView */,
+				A700E8D01B94197C00A4F75E /* DataObj */,
+				A7EF888F1B8EE5AE00909D18 /* default.bundle */,
 				A753B1E01B8B021F001EBA5E /* class */,
 				A753B1BC1B8B01C4001EBA5E /* AppDelegate.h */,
 				A753B1BD1B8B01C4001EBA5E /* AppDelegate.m */,
@@ -135,6 +180,12 @@
 				A753B1C51B8B01C4001EBA5E /* Images.xcassets */,
 				A753B1C71B8B01C4001EBA5E /* LaunchScreen.xib */,
 				A753B1B81B8B01C4001EBA5E /* Supporting Files */,
+				A7EF88931B8EE6FD00909D18 /* appConfig.plist */,
+				A700E8C31B93DB1C00A4F75E /* AppDefine.h */,
+				A700E8D41B941AF000A4F75E /* MyFuncViewController.h */,
+				A700E8D51B941AF000A4F75E /* MyFuncViewController.m */,
+				A700E8D71B941B3800A4F75E /* Myfunc2ViewController.h */,
+				A700E8D81B941B3800A4F75E /* Myfunc2ViewController.m */,
 			);
 			path = podTestDemo;
 			sourceTree = "<group>";
@@ -174,8 +225,27 @@
 				A753B1E21B8B0238001EBA5E /* PodTestTool.m */,
 				A753B1E31B8B0238001EBA5E /* PodTestViewController.h */,
 				A753B1E41B8B0238001EBA5E /* PodTestViewController.m */,
+				A7EF88971B8F0B6500909D18 /* PayViewController.h */,
+				A7EF88981B8F0B6500909D18 /* PayViewController.m */,
 			);
 			name = class;
+			sourceTree = "<group>";
+		};
+		A78AEE991B9536D100068363 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				A78AEEA71B95370600068363 /* WebViewJavascriptBridge.h */,
+				A78AEEA81B95370600068363 /* WebViewJavascriptBridge.js.txt */,
+				A78AEEA91B95370600068363 /* WebViewJavascriptBridge.m */,
+				A78AEE9A1B9536E700068363 /* HtmlTextViewViewController.h */,
+				A78AEE9B1B9536E700068363 /* HtmlTextViewViewController.m */,
+				A78AEE9C1B9536E700068363 /* UIWebLoaderView.bundle */,
+				A78AEE9D1B9536E700068363 /* UIWebLoaderView.h */,
+				A78AEE9E1B9536E700068363 /* UIWebLoaderView.m */,
+				A78AEE9F1B9536E700068363 /* UIWebViewController.h */,
+				A78AEEA01B9536E700068363 /* UIWebViewController.m */,
+			);
+			name = WebView;
 			sourceTree = "<group>";
 		};
 		BC62EDC895864BE73140897E /* Frameworks */ = {
@@ -275,9 +345,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A78AEEA21B9536E700068363 /* UIWebLoaderView.bundle in Resources */,
 				A753B1C41B8B01C4001EBA5E /* Main.storyboard in Resources */,
 				A753B1C91B8B01C4001EBA5E /* LaunchScreen.xib in Resources */,
+				A78AEEAA1B95370600068363 /* WebViewJavascriptBridge.js.txt in Resources */,
 				A753B1C61B8B01C4001EBA5E /* Images.xcassets in Resources */,
+				A7EF88901B8EE5AE00909D18 /* default.bundle in Resources */,
+				A7EF88941B8EE6FD00909D18 /* appConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,11 +402,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A700E8D91B941B3800A4F75E /* Myfunc2ViewController.m in Sources */,
 				A753B1C11B8B01C4001EBA5E /* ViewController.m in Sources */,
+				A7EF88991B8F0B6500909D18 /* PayViewController.m in Sources */,
+				A78AEEA41B9536E700068363 /* UIWebViewController.m in Sources */,
+				A700E8D61B941AF000A4F75E /* MyFuncViewController.m in Sources */,
+				A78AEEA31B9536E700068363 /* UIWebLoaderView.m in Sources */,
+				A700E8D31B94198E00A4F75E /* SettingItem.m in Sources */,
 				A753B1E61B8B0238001EBA5E /* PodTestViewController.m in Sources */,
 				A753B1E51B8B0238001EBA5E /* PodTestTool.m in Sources */,
+				A78AEEAB1B95370600068363 /* WebViewJavascriptBridge.m in Sources */,
 				A753B1BE1B8B01C4001EBA5E /* AppDelegate.m in Sources */,
 				A753B1BB1B8B01C4001EBA5E /* main.m in Sources */,
+				A78AEEA11B9536E700068363 /* HtmlTextViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
